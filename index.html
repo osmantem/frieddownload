@@ -3,109 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Fried Download</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <header>
-
-    <div class="logo">
-        🍟 Fried Download
-    </div>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="https://apkciosman.blogspot.com/" target="_blank" rel="noopener noreferrer">Android</a>
-        <a href="#">Windows</a>
-        <a href="https://www.google.com/search?q=we+dont+support+mac+games+sorry" target="_blank" rel="noopener noreferrer">Mac</a>
-        <a href="#">Games</a>
-    </nav>
-
+    <h1>🍟 Fried Download</h1>
 </header>
 
-<section class="hero">
+<div class="search">
+    <input
+        id="search"
+        type="text"
+        placeholder="Oyun ara..."
+    >
+</div>
 
-    <h1>Download Everything Easily</h1>
-
-    <p>
-        Fast, clean and powerful download library.
-    </p>
-
-    <div class="searchBox">
-        <input
-            type="text"
-            id="search"
-            placeholder="Search app..."
-        >
-
-        <button onclick="searchApps()">
-            Search
-        </button>
-    </div>
-
-</section>
-
-<main>
-
-    <div id="apps" class="cards">
-        <!-- Google Sheets verileri buraya gelecek -->
-    </div>
-
-</main>
-
-<footer>
-
-    <div class="footerTop">
-
-        <div>
-            <h3>Fried Download</h3>
-
-            <p>
-                Fast download website powered by osmanorjinal.
-                You are responsible for everything you do.
-                No security guaranteed.
-                © 2012–2026 osmanorjinal.com
-            </p>
-        </div>
-
-        <div>
-
-            <h3>Links</h3>
-
-            <a href="https://docs.google.com/document/d/1wIycGYtO2i1UhEhJBzzIl1x7HeHrZnInxQEtxm1kkB0/edit?usp=sharing"
-               target="_blank"
-               rel="noopener noreferrer">
-                Privacy
-            </a>
-
-            <a href="https://docs.google.com/document/d/1wIycGYtO2i1UhEhJBzzIl1x7HeHrZnInxQEtxm1kkB0/edit?usp=sharing"
-               target="_blank"
-               rel="noopener noreferrer">
-                Terms
-            </a>
-
-            <a href="mailto:denetimliyorum@gmail.com?subject=I%20need%20to%20Contact%20you%20because%3A">
-                Contact
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="copyright">
-        © 2026 Fried Download - a @osmanorjinal company
-    </div>
-
-</footer>
+<div id="apps" class="cards"></div>
 
 <script src="script.js"></script>
 
